@@ -35,7 +35,6 @@ def create_database():
     except mysql.connector.Error as e:
         print("Error:", e)
 
-
 def create_user():
     print("Welcome to User creation.")
     while True:
